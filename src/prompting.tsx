@@ -196,11 +196,11 @@ export function PromptingIsAllYouNeed() {
     const initializeGame = () => {
       const scale = scaleRef.current
       const LARGE_PIXEL_SIZE = 8 * scale
-      const SMALL_PIXEL_SIZE = 4 * scale
+      const SMALL_PIXEL_SIZE = 12 * scale
       const BALL_SPEED = 6 * scale
 
       pixelsRef.current = []
-      const words = ["MINERS NATION", "UNDER DESTRUCTION"]
+      const words = ["MINERS NATION", "SIE UNDER DESTRUCTION"]
 
       const calculateWordWidth = (word: string, pixelSize: number) => {
         return (
