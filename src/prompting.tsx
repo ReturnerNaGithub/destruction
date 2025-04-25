@@ -10,7 +10,7 @@ const PADDLE_COLOR = "#FFFFFF"
 const LETTER_SPACING = 1
 const WORD_SPACING = 3
 const USE_GIF_BACKGROUND = true
-const GIF_BACKGROUND_OPACITY = 0.3 // Adjust this value between 0 and 1 to control GIF opacity
+const GIF_BACKGROUND_OPACITY = 0.7 // Adjust this value between 0 and 1 to control GIF opacity
 
 const PIXEL_MAP = {
   P: [
